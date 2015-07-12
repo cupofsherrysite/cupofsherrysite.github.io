@@ -19,6 +19,7 @@ audio {
 
 audio {
   position: absolute;
+  bottom: 5px;
   left: 0px;
   right: 0px;
   transform: none;
@@ -27,4 +28,17 @@ audio {
 
 body {
   background-color: #ffaaaa;
+}
+
+@media (min-width: 700px) {
+  audio {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+  body {
+    background-color: #ffffff;
+  }
 }
