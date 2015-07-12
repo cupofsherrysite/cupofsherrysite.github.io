@@ -9,7 +9,7 @@ body {
 }
 
 audio {
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   left: 50%;
   transform: translate(-50%, -50%);
