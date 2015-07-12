@@ -8,6 +8,10 @@ body {
   font-family: Comic Sans MS, cursive;
 }
 
+img {
+  padding: 5vw;
+}
+
 /*
 audio {
   position: absolute;
@@ -19,7 +23,7 @@ audio {
 
 audio {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 0px;
   right: 0px;
   transform: translate(-50%, -50%);
@@ -40,5 +44,8 @@ body {
   }
   body {
     background-color: #ffffff;
+  }
+  img {
+    padding: 20px;
   }
 }
