@@ -16,17 +16,12 @@ audio {
   padding: 20px;
 }
 
-@media handheld and max-width: 600px {
+@media handheld {
   audio {
     position: absolute;
     left: 0px;
     right: 0px;
     transform: none;
     padding: 5vw;
-  }
-  
-  body {
-    background-color: #ffdddd;
-  }
   }
 }
