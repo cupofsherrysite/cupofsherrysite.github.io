@@ -5,7 +5,7 @@ body {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  font-family: Comic Sans MS;
+  font-family: Comic Sans MS, cursive;
 }
 
 audio {
@@ -13,14 +13,20 @@ audio {
   bottom: 0px;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 1em;
+  padding: 20px;
 }
 
 @media handheld and max-width: 600px {
   audio {
+    position: absolute;
     left: 0px;
     right: 0px;
     transform: none;
     padding: 5vw;
+  }
+  
+  body {
+    background-color: #ffdddd;
+  }
   }
 }
