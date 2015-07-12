@@ -18,6 +18,9 @@ audio {
 
 @media handheld and max-width: 600px {
   audio {
-    padding: none;
+    left: 0px;
+    right: 0px;
+    transform: none;
+    padding: 5vw;
   }
 }
