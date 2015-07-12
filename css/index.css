@@ -24,4 +24,9 @@ audio {
     transform: none;
     padding: 5vw;
   }
+  
+  body {
+    background-color: #ffaaaa;
+  }
+  }
 }
