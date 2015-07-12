@@ -16,7 +16,7 @@ audio {
   padding: 20px;
 }
 
-@media handheld, screen, max-width:500px {
+@media screen and (max-width: 600px){ {
   audio {
     position: absolute;
     left: 0px;
