@@ -13,7 +13,7 @@ $(document).ready(function() {
  
     // Place element where the finger is
     $("img").attr('width', touch.pageX);
-     $("img").attr('height', touch.pageX);
+     $("img").attr('height', touch.pageY);
     event.preventDefault();
   }, false);
 });
