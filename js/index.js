@@ -5,4 +5,6 @@ $(document).ready(function() {
     $("img").attr('width', e.pageX);
     $("img").attr('height', e.pageY);
   });
+  
+  document.ontouchmove = function(e) {e.preventDefault()};
 });
