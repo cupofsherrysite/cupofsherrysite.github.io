@@ -20,9 +20,9 @@ audio {
 audio {
   position: absolute;
   bottom: 5px;
-  left: 0px;
+  left: 50%;
   right: 0px;
-  transform: none;
+  transform: translate(-50%, -50%);
   padding: 5vw;
 }
 
