@@ -16,7 +16,7 @@ audio {
   padding: 20px;
 }
 
-@media handheld {
+@media handheld, screen, max-width:500px {
   audio {
     position: absolute;
     left: 0px;
@@ -27,6 +27,5 @@ audio {
   
   body {
     background-color: #ffaaaa;
-  }
   }
 }
